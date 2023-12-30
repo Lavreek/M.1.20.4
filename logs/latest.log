@@ -1,33 +1,74 @@
-[15:52:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:52:42] [ServerMain/INFO]: Loaded 7 recipes
-[15:52:43] [ServerMain/INFO]: Loaded 1271 advancements
-[15:52:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[15:52:43] [Server thread/INFO]: Loading properties
-[15:52:43] [Server thread/INFO]: Default game type: SURVIVAL
-[15:52:43] [Server thread/INFO]: Generating keypair
-[15:52:43] [Server thread/INFO]: Starting Minecraft server on 192.168.255.22:25565
-[15:52:43] [Server thread/INFO]: Using default channel type
-[15:52:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:52:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:52:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:52:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:52:43] [Server thread/INFO]: Preparing level "world"
-[15:52:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:52:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[15:52:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[15:52:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[15:52:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[15:52:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[15:52:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:52:48] [Worker-Main-3/INFO]: Preparing spawn area: 9%
-[15:52:49] [Worker-Main-3/INFO]: Preparing spawn area: 75%
-[15:52:49] [Server thread/INFO]: Time elapsed: 3633 ms
-[15:52:49] [Server thread/INFO]: Done (5.488s)! For help, type "help"
-[15:53:32] [Server thread/INFO]: steeeveee[/192.168.255.22:56618] logged in with entity id 100 at (-6.5, 70.0, 2.5)
-[15:53:32] [Server thread/INFO]: steeeveee joined the game
-[15:53:48] [Server thread/INFO]: Lalala[/192.168.255.18:51005] logged in with entity id 354 at (-1.5, 64.0, 4.5)
-[15:53:48] [Server thread/INFO]: Lalala joined the game
-[15:53:53] [Server thread/INFO]: [Not Secure] <Lalala> ‡‡‡‡‡‡‡‡
-[15:54:02] [Server thread/INFO]: [Not Secure] <steeeveee> Ã∏‰
-[15:54:06] [Server thread/INFO]: Lalala lost connection: Disconnected
-[15:54:06] [Server thread/INFO]: Lalala left the game
+[16:15:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:15:15] [ServerMain/INFO]: Loaded 7 recipes
+[16:15:16] [ServerMain/INFO]: Loaded 1271 advancements
+[16:15:16] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[16:15:16] [Server thread/INFO]: Loading properties
+[16:15:16] [Server thread/INFO]: Default game type: SURVIVAL
+[16:15:16] [Server thread/INFO]: Generating keypair
+[16:15:16] [Server thread/INFO]: Starting Minecraft server on 192.168.255.22:25565
+[16:15:16] [Server thread/INFO]: Using default channel type
+[16:15:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:15:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:15:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:15:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:15:16] [Server thread/INFO]: Preparing level "world"
+[16:15:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:15:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:15:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:15:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:15:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:15:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:15:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:15:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:15:23] [Worker-Main-4/INFO]: Preparing spawn area: 32%
+[16:15:23] [Server thread/INFO]: Time elapsed: 4946 ms
+[16:15:23] [Server thread/INFO]: Done (6.738s)! For help, type "help"
+[16:15:50] [Server thread/INFO]: Lalala[/192.168.255.18:51602] logged in with entity id 1 at (7.5, 153.0, 0.5)
+[16:15:50] [Server thread/INFO]: Lalala joined the game
+[16:16:01] [Server thread/INFO]: steeeveee[/192.168.255.22:57421] logged in with entity id 107 at (-5.5, 152.0, -8.5)
+[16:16:01] [Server thread/INFO]: steeeveee joined the game
+[16:16:17] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:16:17] [Server thread/INFO]: op<--[HERE]
+[16:16:25] [Server thread/INFO]: Made Lalala a server operator
+[16:16:31] [Server thread/INFO]: Made steeeveee a server operator
+[16:16:35] [Server thread/INFO]: [Lalala: Set own game mode to Creative Mode]
+[16:16:44] [Server thread/INFO]: [steeeveee: Set own game mode to Creative Mode]
+[16:17:32] [Server thread/INFO]: [steeeveee: Teleported steeeveee to -248.500000, 46.000000, 2960.500000]
+[16:17:32] [Server thread/WARN]: steeeveee moved too quickly! -248.76059123676578,-107.11650136792815,2978.7642058431356
+[16:17:39] [Server thread/INFO]: [steeeveee: Teleported Lalala to steeeveee]
+[16:18:51] [Server thread/INFO]: Lalala lost connection: Disconnected
+[16:18:51] [Server thread/INFO]: Lalala left the game
+[16:19:40] [Server thread/INFO]: Lalala[/192.168.255.18:51638] logged in with entity id 2924 at (-303.0268896082681, 68.0, 3015.1736677877675)
+[16:19:40] [Server thread/INFO]: Lalala joined the game
+[16:20:01] [Server thread/INFO]: [steeeveee: Teleported steeeveee to -207.500000, 46.000000, 2710.500000]
+[16:20:01] [Server thread/WARN]: steeeveee moved too quickly! 122.6325935588846,-66.1185394442262,-264.69729002260146
+[16:20:33] [Server thread/INFO]: [steeeveee: Teleported Lalala to steeeveee]
+[16:20:44] [Server thread/INFO]: [steeeveee: Set own game mode to Survival Mode]
+[16:20:55] [Server thread/INFO]: steeeveee has made the advancement [Monster Hunter]
+[16:21:05] [Server thread/INFO]: [Lalala: Set own game mode to Survival Mode]
+[16:22:56] [Server thread/INFO]: Lalala lost connection: Disconnected
+[16:22:56] [Server thread/INFO]: Lalala left the game
+[16:23:02] [Server thread/INFO]: Lalala[/192.168.255.18:51667] logged in with entity id 4016 at (-223.93728886252924, 79.00133597911214, 2751.2808281105595)
+[16:23:02] [Server thread/INFO]: Lalala joined the game
+[16:23:53] [Server thread/INFO]: Lalala lost connection: Disconnected
+[16:23:53] [Server thread/INFO]: Lalala left the game
+[16:23:58] [Server thread/INFO]: Lalala[/192.168.255.18:51673] logged in with entity id 4162 at (-223.93728886252924, 79.00133597911214, 2751.2808281105595)
+[16:23:58] [Server thread/INFO]: Lalala joined the game
+[16:24:58] [Server thread/INFO]: Lalala lost connection: Disconnected
+[16:24:58] [Server thread/INFO]: Lalala left the game
+[16:25:13] [Server thread/INFO]: Lalala[/192.168.255.18:51680] logged in with entity id 4364 at (-223.93728886252924, 79.00133597911214, 2751.2808281105595)
+[16:25:13] [Server thread/INFO]: Lalala joined the game
+[16:26:13] [Server thread/INFO]: Lalala lost connection: Disconnected
+[16:26:13] [Server thread/INFO]: Lalala left the game
+[16:29:50] [Server thread/INFO]: Lalala[/192.168.255.18:52020] logged in with entity id 4932 at (-228.33503286250516, 79.0, 2745.2888942096906)
+[16:29:50] [Server thread/INFO]: Lalala joined the game
+[16:31:35] [Server thread/INFO]: Lalala lost connection: Disconnected
+[16:31:35] [Server thread/INFO]: Lalala left the game
+[16:31:40] [Server thread/INFO]: Lalala[/192.168.255.18:52040] logged in with entity id 5243 at (-230.46188806994738, 79.0, 2740.4212108850816)
+[16:31:40] [Server thread/INFO]: Lalala joined the game
+[16:32:07] [Server thread/INFO]: Lalala lost connection: Disconnected
+[16:32:07] [Server thread/INFO]: Lalala left the game
+[16:33:09] [Server thread/INFO]: steeeveee lost connection: Disconnected
+[16:33:09] [Server thread/INFO]: steeeveee left the game
