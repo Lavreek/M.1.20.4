@@ -1,0 +1,33 @@
+[15:52:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:52:42] [ServerMain/INFO]: Loaded 7 recipes
+[15:52:43] [ServerMain/INFO]: Loaded 1271 advancements
+[15:52:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:52:43] [Server thread/INFO]: Loading properties
+[15:52:43] [Server thread/INFO]: Default game type: SURVIVAL
+[15:52:43] [Server thread/INFO]: Generating keypair
+[15:52:43] [Server thread/INFO]: Starting Minecraft server on 192.168.255.22:25565
+[15:52:43] [Server thread/INFO]: Using default channel type
+[15:52:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:52:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:52:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:52:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:52:43] [Server thread/INFO]: Preparing level "world"
+[15:52:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:52:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[15:52:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:52:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:52:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:52:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:52:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:52:48] [Worker-Main-3/INFO]: Preparing spawn area: 9%
+[15:52:49] [Worker-Main-3/INFO]: Preparing spawn area: 75%
+[15:52:49] [Server thread/INFO]: Time elapsed: 3633 ms
+[15:52:49] [Server thread/INFO]: Done (5.488s)! For help, type "help"
+[15:53:32] [Server thread/INFO]: steeeveee[/192.168.255.22:56618] logged in with entity id 100 at (-6.5, 70.0, 2.5)
+[15:53:32] [Server thread/INFO]: steeeveee joined the game
+[15:53:48] [Server thread/INFO]: Lalala[/192.168.255.18:51005] logged in with entity id 354 at (-1.5, 64.0, 4.5)
+[15:53:48] [Server thread/INFO]: Lalala joined the game
+[15:53:53] [Server thread/INFO]: [Not Secure] <Lalala> ‡‡‡‡‡‡‡‡
+[15:54:02] [Server thread/INFO]: [Not Secure] <steeeveee> Ã∏‰
+[15:54:06] [Server thread/INFO]: Lalala lost connection: Disconnected
+[15:54:06] [Server thread/INFO]: Lalala left the game
