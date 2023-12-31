@@ -1,74 +1,54 @@
-[16:15:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:15:15] [ServerMain/INFO]: Loaded 7 recipes
-[16:15:16] [ServerMain/INFO]: Loaded 1271 advancements
-[16:15:16] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[16:15:16] [Server thread/INFO]: Loading properties
-[16:15:16] [Server thread/INFO]: Default game type: SURVIVAL
-[16:15:16] [Server thread/INFO]: Generating keypair
-[16:15:16] [Server thread/INFO]: Starting Minecraft server on 192.168.255.22:25565
-[16:15:16] [Server thread/INFO]: Using default channel type
-[16:15:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:15:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:15:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:15:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:15:16] [Server thread/INFO]: Preparing level "world"
-[16:15:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:15:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:15:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:15:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:15:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:15:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:15:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:15:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:15:23] [Worker-Main-4/INFO]: Preparing spawn area: 32%
-[16:15:23] [Server thread/INFO]: Time elapsed: 4946 ms
-[16:15:23] [Server thread/INFO]: Done (6.738s)! For help, type "help"
-[16:15:50] [Server thread/INFO]: Lalala[/192.168.255.18:51602] logged in with entity id 1 at (7.5, 153.0, 0.5)
-[16:15:50] [Server thread/INFO]: Lalala joined the game
-[16:16:01] [Server thread/INFO]: steeeveee[/192.168.255.22:57421] logged in with entity id 107 at (-5.5, 152.0, -8.5)
-[16:16:01] [Server thread/INFO]: steeeveee joined the game
-[16:16:17] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[16:16:17] [Server thread/INFO]: op<--[HERE]
-[16:16:25] [Server thread/INFO]: Made Lalala a server operator
-[16:16:31] [Server thread/INFO]: Made steeeveee a server operator
-[16:16:35] [Server thread/INFO]: [Lalala: Set own game mode to Creative Mode]
-[16:16:44] [Server thread/INFO]: [steeeveee: Set own game mode to Creative Mode]
-[16:17:32] [Server thread/INFO]: [steeeveee: Teleported steeeveee to -248.500000, 46.000000, 2960.500000]
-[16:17:32] [Server thread/WARN]: steeeveee moved too quickly! -248.76059123676578,-107.11650136792815,2978.7642058431356
-[16:17:39] [Server thread/INFO]: [steeeveee: Teleported Lalala to steeeveee]
-[16:18:51] [Server thread/INFO]: Lalala lost connection: Disconnected
-[16:18:51] [Server thread/INFO]: Lalala left the game
-[16:19:40] [Server thread/INFO]: Lalala[/192.168.255.18:51638] logged in with entity id 2924 at (-303.0268896082681, 68.0, 3015.1736677877675)
-[16:19:40] [Server thread/INFO]: Lalala joined the game
-[16:20:01] [Server thread/INFO]: [steeeveee: Teleported steeeveee to -207.500000, 46.000000, 2710.500000]
-[16:20:01] [Server thread/WARN]: steeeveee moved too quickly! 122.6325935588846,-66.1185394442262,-264.69729002260146
-[16:20:33] [Server thread/INFO]: [steeeveee: Teleported Lalala to steeeveee]
-[16:20:44] [Server thread/INFO]: [steeeveee: Set own game mode to Survival Mode]
-[16:20:55] [Server thread/INFO]: steeeveee has made the advancement [Monster Hunter]
-[16:21:05] [Server thread/INFO]: [Lalala: Set own game mode to Survival Mode]
-[16:22:56] [Server thread/INFO]: Lalala lost connection: Disconnected
-[16:22:56] [Server thread/INFO]: Lalala left the game
-[16:23:02] [Server thread/INFO]: Lalala[/192.168.255.18:51667] logged in with entity id 4016 at (-223.93728886252924, 79.00133597911214, 2751.2808281105595)
-[16:23:02] [Server thread/INFO]: Lalala joined the game
-[16:23:53] [Server thread/INFO]: Lalala lost connection: Disconnected
-[16:23:53] [Server thread/INFO]: Lalala left the game
-[16:23:58] [Server thread/INFO]: Lalala[/192.168.255.18:51673] logged in with entity id 4162 at (-223.93728886252924, 79.00133597911214, 2751.2808281105595)
-[16:23:58] [Server thread/INFO]: Lalala joined the game
-[16:24:58] [Server thread/INFO]: Lalala lost connection: Disconnected
-[16:24:58] [Server thread/INFO]: Lalala left the game
-[16:25:13] [Server thread/INFO]: Lalala[/192.168.255.18:51680] logged in with entity id 4364 at (-223.93728886252924, 79.00133597911214, 2751.2808281105595)
-[16:25:13] [Server thread/INFO]: Lalala joined the game
-[16:26:13] [Server thread/INFO]: Lalala lost connection: Disconnected
-[16:26:13] [Server thread/INFO]: Lalala left the game
-[16:29:50] [Server thread/INFO]: Lalala[/192.168.255.18:52020] logged in with entity id 4932 at (-228.33503286250516, 79.0, 2745.2888942096906)
-[16:29:50] [Server thread/INFO]: Lalala joined the game
-[16:31:35] [Server thread/INFO]: Lalala lost connection: Disconnected
-[16:31:35] [Server thread/INFO]: Lalala left the game
-[16:31:40] [Server thread/INFO]: Lalala[/192.168.255.18:52040] logged in with entity id 5243 at (-230.46188806994738, 79.0, 2740.4212108850816)
-[16:31:40] [Server thread/INFO]: Lalala joined the game
-[16:32:07] [Server thread/INFO]: Lalala lost connection: Disconnected
-[16:32:07] [Server thread/INFO]: Lalala left the game
-[16:33:09] [Server thread/INFO]: steeeveee lost connection: Disconnected
-[16:33:09] [Server thread/INFO]: steeeveee left the game
+[08:54:53] [Server thread/INFO]: Lalala[/176.59.97.105:31836] logged in with entity id 73123 at (-221.28961181847927, 78.0, 2772.435813354079)
+[08:54:53] [Server thread/INFO]: Lalala joined the game
+[09:02:14] [Server thread/INFO]: Lalala lost connection: Disconnected
+[09:02:14] [Server thread/INFO]: Lalala left the game
+[15:10:15] [Server thread/INFO]: steeeveee[/192.162.251.93:42410] logged in with entity id 74461 at (-212.27789010140825, 79.0, 2711.0282092377875)
+[15:10:15] [Server thread/INFO]: steeeveee joined the game
+[15:14:10] [Server thread/INFO]: steeeveee has made the advancement [Fishy Business]
+[15:42:16] [Server thread/INFO]: steeeveee has made the advancement [Voluntary Exile]
+[15:44:02] [Server thread/INFO]: steeeveee lost connection: Timed out
+[15:44:02] [Server thread/INFO]: steeeveee left the game
+[15:44:02] [Server thread/WARN]: handleDisconnection() called twice
+[15:44:09] [Server thread/INFO]: steeeveee[/192.162.251.93:42888] logged in with entity id 79729 at (-288.3347267999212, 62.0, 2703.6231111608927)
+[15:44:09] [Server thread/INFO]: steeeveee joined the game
+[15:44:47] [Server thread/INFO]: steeeveee lost connection: Timed out
+[15:44:47] [Server thread/INFO]: steeeveee left the game
+[15:44:55] [Server thread/INFO]: steeeveee[/192.162.251.93:42633] logged in with entity id 79852 at (-286.499257557525, 62.0, 2700.644044404754)
+[15:44:55] [Server thread/INFO]: steeeveee joined the game
+[15:45:09] [Server thread/INFO]: [steeeveee: Set the weather to clear]
+[15:45:57] [Server thread/INFO]: steeeveee lost connection: Timed out
+[15:45:57] [Server thread/INFO]: steeeveee left the game
+[15:46:03] [Server thread/INFO]: steeeveee[/192.162.251.93:17602] logged in with entity id 80019 at (-289.0584137518828, 59.53584062504456, 2711.548238988092)
+[15:46:03] [Server thread/INFO]: steeeveee joined the game
+[15:46:49] [Server thread/INFO]: steeeveee lost connection: Timed out
+[15:46:49] [Server thread/INFO]: steeeveee left the game
+[15:47:04] [Server thread/INFO]: steeeveee[/192.162.251.93:17693] logged in with entity id 80131 at (-280.647410811617, 78.0, 2702.0411892093985)
+[15:47:04] [Server thread/INFO]: steeeveee joined the game
+[15:47:08] [Server thread/INFO]: steeeveee lost connection: Disconnected
+[15:47:08] [Server thread/INFO]: steeeveee left the game
+[15:47:20] [Server thread/INFO]: steeeveee[/192.162.251.93:17738] logged in with entity id 80163 at (-280.647410811617, 78.0, 2702.0411892093985)
+[15:47:20] [Server thread/INFO]: steeeveee joined the game
+[15:49:05] [Server thread/INFO]: steeeveee lost connection: Timed out
+[15:49:05] [Server thread/INFO]: steeeveee left the game
+[15:49:05] [Server thread/WARN]: handleDisconnection() called twice
+[15:49:18] [Server thread/INFO]: steeeveee[/192.162.251.93:17854] logged in with entity id 80356 at (-280.647410811617, 78.0, 2702.0411892093985)
+[15:49:18] [Server thread/INFO]: steeeveee joined the game
+[15:50:03] [Server thread/INFO]: steeeveee lost connection: Disconnected
+[15:50:03] [Server thread/INFO]: steeeveee left the game
+[15:56:40] [Server thread/INFO]: Stopping server
+[15:56:40] [Server thread/INFO]: Saving players
+[15:56:40] [Server thread/INFO]: Saving worlds
+[15:56:40] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ama$1.run(SourceFile:89) ~[server-1.20.4.jar:?]
