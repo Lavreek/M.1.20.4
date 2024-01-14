@@ -1,0 +1,291 @@
+---- Minecraft Crash Report ----
+// Ouch. That hurt :(
+
+Time: 2023-12-31 19:42:42
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at java.base@17.0.9/java.io.RandomAccessFile.readBytes(Native Method)
+	at java.base@17.0.9/java.io.RandomAccessFile.read(RandomAccessFile.java:405)
+	at java.base@17.0.9/java.io.RandomAccessFile.readFully(RandomAccessFile.java:469)
+	at java.base@17.0.9/java.util.zip.ZipFile$Source.readFullyAt(ZipFile.java:1512)
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:924)
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:940)
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:457)
+	at java.base@17.0.9/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.base@17.0.9/jdk.internal.loader.Resource.getBytes(Resource.java:126)
+	at java.base@17.0.9/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:893)
+	at java.base@17.0.9/java.net.URLClassLoader.defineClass(URLClassLoader.java:519)
+	at java.base@17.0.9/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+	at java.base@17.0.9/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+	at java.base@17.0.9/java.security.AccessController.executePrivileged(AccessController.java:807)
+	at java.base@17.0.9/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.base@17.0.9/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+	at java.base@17.0.9/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base@17.0.9/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:729)
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:560)
+	at io.netty.channel.DefaultChannelPipeline.close(DefaultChannelPipeline.java:957)
+	at io.netty.channel.AbstractChannel.close(AbstractChannel.java:244)
+	at aob.b(SourceFile:157)
+	at net.minecraft.server.MinecraftServer.t(SourceFile:583)
+	at ama.t(SourceFile:542)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:718)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:270)
+	at net.minecraft.server.MinecraftServer$$Lambda$6004/0x00007f03c9a3f988.run(Unknown Source)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@17.0.9/java.io.RandomAccessFile.readBytes(Native Method)
+	at java.base@17.0.9/java.io.RandomAccessFile.read(RandomAccessFile.java:405)
+	at java.base@17.0.9/java.io.RandomAccessFile.readFully(RandomAccessFile.java:469)
+	at java.base@17.0.9/java.util.zip.ZipFile$Source.readFullyAt(ZipFile.java:1512)
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:924)
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:940)
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:457)
+	at java.base@17.0.9/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.base@17.0.9/jdk.internal.loader.Resource.getBytes(Resource.java:126)
+	at java.base@17.0.9/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:893)
+	at java.base@17.0.9/java.net.URLClassLoader.defineClass(URLClassLoader.java:519)
+	at java.base@17.0.9/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+	at java.base@17.0.9/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+	at java.base@17.0.9/java.security.AccessController.executePrivileged(AccessController.java:807)
+	at java.base@17.0.9/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.base@17.0.9/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+	at java.base@17.0.9/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base@17.0.9/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:729)
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:560)
+	at io.netty.channel.DefaultChannelPipeline.close(DefaultChannelPipeline.java:957)
+	at io.netty.channel.AbstractChannel.close(AbstractChannel.java:244)
+	at aob.b(SourceFile:157)
+	at net.minecraft.server.MinecraftServer.t(SourceFile:583)
+	at ama.t(SourceFile:542)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:718)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:270)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.9/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.9/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.9/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@34745c16
+	at java.base@17.0.9/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@34745c16
+	at java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.9/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=10 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=11 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@3ab3b4e8
+	at java.base@17.0.9/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@3ab3b4e8
+	at java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.9/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+	at java.base@17.0.9/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"DestroyJavaVM" prio=5 Id=13 RUNNABLE
+
+
+"JNA Cleaner" daemon prio=5 Id=18 WAITING on java.lang.ref.ReferenceQueue$Lock@3e8c3766
+	at java.base@17.0.9/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@3e8c3766
+	at java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+
+
+"Timer hack thread" daemon prio=5 Id=19 TIMED_WAITING
+	at java.base@17.0.9/java.lang.Thread.sleep(Native Method)
+	at ac$9.run(SourceFile:833)
+
+
+"Yggdrasil Key Fetcher" daemon prio=5 Id=20 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7b8ebed3
+	at java.base@17.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7b8ebed3
+	at java.base@17.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	...
+
+
+"Server thread" prio=5 Id=24 RUNNABLE
+	at java.base@17.0.9/java.io.RandomAccessFile.readBytes(Native Method)
+	at java.base@17.0.9/java.io.RandomAccessFile.read(RandomAccessFile.java:405)
+	at java.base@17.0.9/java.io.RandomAccessFile.readFully(RandomAccessFile.java:469)
+	at java.base@17.0.9/java.util.zip.ZipFile$Source.readFullyAt(ZipFile.java:1512)
+	-  locked java.io.RandomAccessFile@6d0cc958
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:924)
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:940)
+	-  locked java.util.jar.JarFile@4abf24e5
+	at java.base@17.0.9/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:457)
+	at java.base@17.0.9/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	...
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=27 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:316)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:373)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+
+
+"Server Watchdog" daemon prio=5 Id=32 RUNNABLE
+	at java.management@17.0.9/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.9/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.9/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at amd.run(SourceFile:48)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+
+
+"Java2D Disposer" daemon prio=10 Id=33 WAITING on java.lang.ref.ReferenceQueue$Lock@1ba1419c
+	at java.base@17.0.9/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1ba1419c
+	at java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.desktop@17.0.9/sun.java2d.Disposer.run(Disposer.java:145)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=35 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:316)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:373)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+
+
+"SIGHUP handler" daemon prio=9 Id=36 WAITING on net.minecraft.server.Main$1@7ec25c42
+	at java.base@17.0.9/java.lang.Object.wait(Native Method)
+	-  waiting on net.minecraft.server.Main$1@7ec25c42
+	at java.base@17.0.9/java.lang.Thread.join(Thread.java:1313)
+	at java.base@17.0.9/java.lang.Thread.join(Thread.java:1381)
+	at java.base@17.0.9/java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+	at java.base@17.0.9/java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+	at java.base@17.0.9/java.lang.Shutdown.runHooks(Shutdown.java:130)
+	at java.base@17.0.9/java.lang.Shutdown.exit(Shutdown.java:173)
+	-  locked java.lang.Class@10ec1db9
+	at java.base@17.0.9/java.lang.Terminator$1.handle(Terminator.java:51)
+	...
+
+
+"SIGHUP handler" daemon prio=9 Id=37 BLOCKED on java.lang.Class@10ec1db9 owned by "SIGHUP handler" Id=36
+	at java.base@17.0.9/java.lang.Shutdown.exit(Shutdown.java:172)
+	-  blocked on java.lang.Class@10ec1db9
+	at java.base@17.0.9/java.lang.Terminator$1.handle(Terminator.java:51)
+	at java.base@17.0.9/jdk.internal.misc.Signal$1.run(Signal.java:219)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+
+
+"SIGTERM handler" daemon prio=9 Id=38 BLOCKED on java.lang.Class@10ec1db9 owned by "SIGHUP handler" Id=36
+	at java.base@17.0.9/java.lang.Shutdown.exit(Shutdown.java:172)
+	-  blocked on java.lang.Class@10ec1db9
+	at java.base@17.0.9/java.lang.Terminator$1.handle(Terminator.java:51)
+	at java.base@17.0.9/jdk.internal.misc.Signal$1.run(Signal.java:219)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+
+
+"Server Shutdown Thread" prio=5 Id=25 WAITING on java.lang.Thread@23479b4d
+	at java.base@17.0.9/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Thread@23479b4d
+	at java.base@17.0.9/java.lang.Thread.join(Thread.java:1313)
+	at java.base@17.0.9/java.lang.Thread.join(Thread.java:1381)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:641)
+	at net.minecraft.server.Main$1.run(SourceFile:257)
+
+
+"pool-1-thread-1" prio=5 Id=14 RUNNABLE
+	at java.logging@17.0.9/java.util.logging.Level.intValue(Level.java:433)
+	at java.logging@17.0.9/java.util.logging.Logger.isLoggable(Logger.java:2034)
+	at java.logging@17.0.9/sun.util.logging.internal.LoggingProviderImpl$JULWrapper.isLoggable(LoggingProviderImpl.java:225)
+	at java.base@17.0.9/jdk.internal.logger.AbstractLoggerWrapper.isLoggable(AbstractLoggerWrapper.java:68)
+	at java.management@17.0.9/com.sun.jmx.mbeanserver.Repository.retrieve(Repository.java:479)
+	at java.management@17.0.9/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1082)
+	at java.management@17.0.9/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.exclusiveUnregisterMBean(DefaultMBeanServerInterceptor.java:423)
+	at java.management@17.0.9/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.unregisterMBean(DefaultMBeanServerInterceptor.java:411)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@ed3a363
+
+
+"StreamCloser" prio=5 Id=34 RUNNABLE
+
+
+
+Stacktrace:
+	at amd.run(SourceFile:64)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 0, entities: 129,0,98,529,0,0,529 [], block_entities: 56 [<null>:56], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 129,0,98,529,0,0,529,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.4
+	Minecraft Version ID: 1.20.4
+	Operating System: Linux (amd64) version 5.15.0-91-generic
+	Java Version: 17.0.9, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 623859128 bytes (594 MiB) / 1037959168 bytes (989 MiB) up to 1037959168 bytes (989 MiB)
+	CPUs: 1
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Gold 6336Y CPU @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 106 Stepping 6
+	Microarchitecture: Ice Lake (Server)
+	Frequency (GHz): 2.40
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 1
+	Graphics card #0 name: GD 5446
+	Graphics card #0 vendor: Cirrus Logic (0x1013)
+	Graphics card #0 VRAM (MB): 32.00
+	Graphics card #0 deviceId: 0x00b8
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 2048.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MB): 981.52
+	Virtual memory used (MB): 1471.15
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	Server Running: false
+	Player Count: 0 / 20; []
+	Data Packs: vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)

@@ -1,44 +1,7 @@
-[08:54:53] [Server thread/INFO]: Lalala[/176.59.97.105:31836] logged in with entity id 73123 at (-221.28961181847927, 78.0, 2772.435813354079)
-[08:54:53] [Server thread/INFO]: Lalala joined the game
-[09:02:14] [Server thread/INFO]: Lalala lost connection: Disconnected
-[09:02:14] [Server thread/INFO]: Lalala left the game
-[15:10:15] [Server thread/INFO]: steeeveee[/192.162.251.93:42410] logged in with entity id 74461 at (-212.27789010140825, 79.0, 2711.0282092377875)
-[15:10:15] [Server thread/INFO]: steeeveee joined the game
-[15:14:10] [Server thread/INFO]: steeeveee has made the advancement [Fishy Business]
-[15:42:16] [Server thread/INFO]: steeeveee has made the advancement [Voluntary Exile]
-[15:44:02] [Server thread/INFO]: steeeveee lost connection: Timed out
-[15:44:02] [Server thread/INFO]: steeeveee left the game
-[15:44:02] [Server thread/WARN]: handleDisconnection() called twice
-[15:44:09] [Server thread/INFO]: steeeveee[/192.162.251.93:42888] logged in with entity id 79729 at (-288.3347267999212, 62.0, 2703.6231111608927)
-[15:44:09] [Server thread/INFO]: steeeveee joined the game
-[15:44:47] [Server thread/INFO]: steeeveee lost connection: Timed out
-[15:44:47] [Server thread/INFO]: steeeveee left the game
-[15:44:55] [Server thread/INFO]: steeeveee[/192.162.251.93:42633] logged in with entity id 79852 at (-286.499257557525, 62.0, 2700.644044404754)
-[15:44:55] [Server thread/INFO]: steeeveee joined the game
-[15:45:09] [Server thread/INFO]: [steeeveee: Set the weather to clear]
-[15:45:57] [Server thread/INFO]: steeeveee lost connection: Timed out
-[15:45:57] [Server thread/INFO]: steeeveee left the game
-[15:46:03] [Server thread/INFO]: steeeveee[/192.162.251.93:17602] logged in with entity id 80019 at (-289.0584137518828, 59.53584062504456, 2711.548238988092)
-[15:46:03] [Server thread/INFO]: steeeveee joined the game
-[15:46:49] [Server thread/INFO]: steeeveee lost connection: Timed out
-[15:46:49] [Server thread/INFO]: steeeveee left the game
-[15:47:04] [Server thread/INFO]: steeeveee[/192.162.251.93:17693] logged in with entity id 80131 at (-280.647410811617, 78.0, 2702.0411892093985)
-[15:47:04] [Server thread/INFO]: steeeveee joined the game
-[15:47:08] [Server thread/INFO]: steeeveee lost connection: Disconnected
-[15:47:08] [Server thread/INFO]: steeeveee left the game
-[15:47:20] [Server thread/INFO]: steeeveee[/192.162.251.93:17738] logged in with entity id 80163 at (-280.647410811617, 78.0, 2702.0411892093985)
-[15:47:20] [Server thread/INFO]: steeeveee joined the game
-[15:49:05] [Server thread/INFO]: steeeveee lost connection: Timed out
-[15:49:05] [Server thread/INFO]: steeeveee left the game
-[15:49:05] [Server thread/WARN]: handleDisconnection() called twice
-[15:49:18] [Server thread/INFO]: steeeveee[/192.162.251.93:17854] logged in with entity id 80356 at (-280.647410811617, 78.0, 2702.0411892093985)
-[15:49:18] [Server thread/INFO]: steeeveee joined the game
-[15:50:03] [Server thread/INFO]: steeeveee lost connection: Disconnected
-[15:50:03] [Server thread/INFO]: steeeveee left the game
-[15:56:40] [Server thread/INFO]: Stopping server
-[15:56:40] [Server thread/INFO]: Saving players
-[15:56:40] [Server thread/INFO]: Saving worlds
-[15:56:40] [Server console handler/ERROR]: Exception handling console input
+[19:18:22] [Server thread/INFO]: Stopping server
+[19:18:22] [Server thread/INFO]: Saving players
+[19:18:22] [Server thread/INFO]: Saving worlds
+[19:18:21] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Input/output error
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
